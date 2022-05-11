@@ -17,6 +17,7 @@ export default function App() {
       //Toggling the visibility state of the bottom sheet
       setVisible(!visible);
     };
+   
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
@@ -75,7 +76,7 @@ export default function App() {
                     fontSize: 20,
                   }}
                 >
-                  Share Using
+                  Import your Component/View Here
                 </Text>
               </View>
            
